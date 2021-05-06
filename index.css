@@ -1,0 +1,455 @@
+
+/*general html body section*/
+
+html{
+    font-family: 'Inter', sans-serif;
+}
+.body-container{
+    margin: 0 !important;
+     height: 100vh;
+     width: 100%;
+     padding: 0;
+      overflow: hidden; 
+     
+}
+/*sidebar section*/
+.sidebar{
+min-height: 100vh;
+background-color:#545186;
+}
+
+.brand-logo{
+    width: 100%;
+    text-align: center;
+}
+.brand-logo img{
+ vertical-align: middle;
+}
+.brand-angle{
+    vertical-align: middle;
+    color: #9e9e9e;
+}
+.thumbnil{
+    background-image: url(./assets/thumbnail-image.jpeg);
+    min-height: 20%;
+    padding: 0 20px;
+ 
+}
+.drop-down{
+    text-align: center; 
+    width: 100%;
+   line-height: 20%;
+  }
+.drop-down-angle{
+    background: #545186;
+    padding: 0px 10px 3px 10px;
+    color: #ffffff;
+   border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+ 
+}
+.settings-icon {
+    float: right;
+    color: #ffffff;
+}
+.name-placeholder{
+  display: inline-block;
+    background-color: rgb(172, 172, 172);
+    text-align: center;
+    padding: 20% 25%;
+    border-radius: 50%;
+    color: #ffffff;
+}
+.user-info{
+    color: #ffffff;
+}
+.sub-text{
+    font-size: 12px;
+    font-weight: lighter;
+}
+.invite-users{
+    background-color:#fd3892;
+    display: inline-block;
+    font-size: 10px;
+
+    padding:8px 15px;
+}
+.count{
+    background-color:#eb0d6d;
+    border-radius: 50%;
+    padding: 3px 5px;
+    margin-left: 10px;
+}
+.sidebar-item-container{
+    padding: 20px 30px;
+}
+.item-icon{
+    color:rgb(158, 158, 158);
+     font-size: 14px;
+     opacity: 0.5;
+     cursor: pointer;
+}
+.item-text{
+    color: #ffffffff;
+     font-size: 12px;
+    font-weight: lighter;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+/*Job section*/
+.nav{
+    background:#ffffff;
+    width: 100%;
+     height: 5%;
+    -webkit-box-shadow: 0 4px 4px -2px #cfcccc;
+   -moz-box-shadow: 0 4px 4px -2px #dddcdc;
+    box-shadow: 0 4px 4px -2px #dddddd;
+}
+.search-filter-container{
+    background: #ffffff;
+    -webkit-box-shadow: 0 4px 4px -2px #cfcccc;
+   -moz-box-shadow: 0 4px 4px -2px #dddcdc;box-shadow: 0 4px 4px -2px #dddddd;
+   padding-top: 15px;
+   padding-bottom: 15px;
+   margin: 10px 25px;
+   border-radius: 5px;
+
+   
+
+}
+.result-notification{
+    background: #fbf4e4;
+    color: #e6ae2d;
+     margin: 10px 25px;
+    font-size: 14px;
+     padding: 7px 12px;
+ 
+   border-radius: 5px;
+   
+}
+.card-container{
+margin: 10px 25px !important;
+}
+ 
+.card{
+    border-radius: 5px;
+    display: flex;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    cursor: pointer;
+    margin-bottom: 10px;
+      -webkit-box-shadow: 0 4px 4px -2px #cfcccc;
+   -moz-box-shadow: 0 4px 4px -2px #dddcdc;
+    box-shadow: 0 4px 4px -2px #dddddd;
+    outline: none;
+    border: 1px solid #f5f5f5 !important;
+
+    }
+
+    
+.company-logo{
+    width: 60px;
+    height: 40px;
+   
+}
+.job-title{
+    color: #4E4EA1;
+    font-weight:bold;
+    font-size: 14px !important;
+     margin-left: 15px;
+     margin-right: 15px;
+     text-overflow: ellipsis;
+      white-space: nowrap;
+    overflow: hidden;
+ }
+ .job-details-container{
+     display: flex;
+     justify-content: space-between;
+     padding:0 15px;
+     margin-bottom: 0;
+ }
+ .label{
+     color: #4F4B4B;
+     font-weight: 500;
+      font-size: 13px;
+
+ }
+ .label-text{
+       color: #4F4B4B;
+     font-weight: 300;
+      font-size: 13px;
+
+ }
+ .percent-ready{
+      color: #3ba33b;
+     font-weight:bold;
+      font-size: 10px;
+
+ }
+ .ready-text{
+     color: #555353;
+     font-weight: 300;
+      font-size: 8px;
+
+ }
+ .other-info-container{
+     margin-left: 15px;
+     margin-right: 15px;
+     margin-top: 0;
+
+ }
+ .time-applicant{
+     float: right;
+     margin-left: 15px;
+     margin-right: 15px;
+     font-size: 10px;
+     padding: 0 !important;
+ }
+ .time{
+     border-right: 1px solid #555353;
+     padding-right: 3px !important;
+
+ }
+ .card-div{
+     overflow-y: scroll;
+      height: 80vh;
+      overflow-x: hidden;
+ }
+
+ /*Job Details section */
+
+
+.card{
+    border-radius: 5px;
+    display: flex;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    cursor: pointer;
+    margin-bottom: 10px;
+      -webkit-box-shadow: 0 4px 4px -2px #cfcccc;
+   -moz-box-shadow: 0 4px 4px -2px #dddcdc;
+    box-shadow: 0 4px 4px -2px #dddddd;
+    outline: none;
+    border: 1px solid #f5f5f5 !important;
+
+    }
+    
+    
+.company-logo-large{
+    width: 80px;
+    height: 60px;
+   
+}
+.job-title-large{
+    color: #4E4EA1;
+    font-weight:bold;
+    font-size: 20px !important;
+     margin-left: 15px;
+     margin-right: 15px;
+     text-overflow: ellipsis;
+      white-space: nowrap;
+    overflow: hidden;
+ }
+ .job-details-container{
+     display: flex;
+     justify-content: space-between;
+     padding:0 15px;
+     margin-bottom: 0;
+ }
+ .label-large{
+     color: #4F4B4B;
+     font-weight: 500;
+      font-size: 15px;
+
+ }
+ .label-text{
+       color: #4F4B4B;
+     font-weight: 300;
+      font-size: 13px;
+
+ }
+ .percent-ready-large{
+      color: #3ba33b;
+     font-weight:bold;
+      font-size: 14px;
+
+ }
+ .ready-text-large{
+     color: #555353;
+     font-weight: 300;
+      font-size: 10px;
+
+ }
+ .time-large{
+      color: #838383;
+     font-size: 10px;
+
+ }
+ .new{
+     font-size:13px;
+     color: #E5A921;
+
+ }
+ .large-desired-experience{
+     display: flex;
+     justify-content: space-between;
+     font-size: 10px !important;
+    color: #0c0c0c;
+ }
+ .other-info-container{
+     margin-left: 15px;
+     margin-right: 15px;
+     margin-top: 0;
+
+ }
+ .time-applicant-large{
+     
+     margin-left: 15px;
+     margin-right: 15px;
+     font-size: 10px;
+     padding: 0 !important;
+     margin-top: 20px;
+     margin-bottom: 20px;
+ }
+ .large-applicant{
+     color: #4E4EA1;
+     font-size: 8px;
+     padding: 7px 20px;
+   background: #F5F5FF;
+    border-radius: 10px;
+
+ }
+ .time{
+     border-right: 1px solid #555353;
+     padding-right: 3px !important;
+
+ }
+ 
+ .action-button{
+     display: flex;
+     justify-content: space-between;
+
+ }
+  .action-apply{
+    
+      background: #684EA1;
+      padding: 6px 40px;
+      color: #ffffff;
+      background: 1px solid #684EA1; ;
+      border-radius:40px;
+      outline: none;
+      font-size: 14px;
+      box-shadow: none !important;
+      border-color:transparent;
+
+ }
+   .action-save{
+     
+      background: transparent;
+      padding: 6px 40px;
+      border: 1px solid black;
+      background: transparent; ;
+      border-radius:40px;
+      outline: none;
+      font-size: 14px;
+      box-shadow: none !important;
+     
+
+ }
+ .action-generate{
+background: #D37213;
+ border-radius:40px;
+      outline: none;
+      font-size: 14px;
+      box-shadow: none !important;
+       border-color:transparent;
+       color: #ffffff;
+        padding: 6px 40px;
+
+ }
+ .title-job{
+     font-size: 11px;
+     margin-top: 30px;
+     color: #686868;
+     font-weight: bold;
+ }
+  .description{
+     font-size: 10px;
+    
+        color: #686868;
+     font-weight: normal;
+ }
+ .large-card-container{
+     overflow-y: scroll;
+      height: 75vh;
+      overflow-x: hidden;
+ }
+ .dot{
+     font-size: 5px;
+ }
+
+
+ /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+ 
+/* Portrait */
+ 
+@media only screen
+ 
+and (min-device-width: 375px)
+ 
+and (max-device-width: 667px)
+ 
+and (-webkit-min-device-pixel-ratio: 2)
+ 
+and (orientation: portrait) {
+
+
+}
+ 
+/* Landscape */
+ 
+@media only screen
+ 
+and (min-device-width: 375px)
+ 
+and (max-device-width: 667px)
+ 
+and (-webkit-min-device-pixel-ratio: 2)
+ 
+and (orientation: landscape) {
+ 
+}
+ 
+/* ----------- Mobile Phone ----------- */
+ 
+/* Portrait */
+ 
+@media screen
+ 
+and (device-width: 360px)
+ 
+and (device-height: 640px)
+ 
+and (-webkit-device-pixel-ratio: 3)
+ 
+and (orientation: portrait) {
+ 
+}
+ 
+/* Landscape */
+ 
+@media screen
+ 
+and (device-width: 360px)
+ 
+and (device-height: 640px)
+ 
+and (-webkit-device-pixel-ratio: 3)
+ 
+and (orientation: landscape) {
+ 
+}
+
+
+ 
