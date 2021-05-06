@@ -29,7 +29,8 @@ fetch('jobData.json')
 
     data.forEach((data) => {
 
-      jobWrapper += `<div class="card">
+      jobWrapper += `<div>
+      <div class="card">
                       <div class="row ">
                     <div class="col col-1 ">
                    <img  class="company-logo" src="${data.image}" alt="brabd-logo"/>
@@ -68,6 +69,7 @@ fetch('jobData.json')
                     
                     </div>
 
+                  </div>
                   </div>`
     })
     document.querySelector('.card-div').innerHTML = jobWrapper

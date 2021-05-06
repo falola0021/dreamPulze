@@ -6,7 +6,7 @@ html{
 }
 .body-container{
     margin: 0 !important;
-     height: 100vh;
+     /* height: 100vh; */
      width: 100%;
      padding: 0;
       overflow: hidden; 
@@ -14,7 +14,7 @@ html{
 }
 /*sidebar section*/
 .sidebar{
-min-height: 100vh;
+/* min-height: 100vh; */
 background-color:#545186;
 }
 
@@ -213,7 +213,7 @@ margin: 10px 25px !important;
  }
  .card-div{
      overflow-y: scroll;
-      height: 80vh;
+      height: 100vh;
       overflow-x: hidden;
  }
 
@@ -393,7 +393,7 @@ background: #D37213;
  /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
  
 /* Portrait */
- 
+/*  
 @media only screen
  
 and (min-device-width: 375px)
@@ -405,11 +405,11 @@ and (-webkit-min-device-pixel-ratio: 2)
 and (orientation: portrait) {
 
 
-}
+} */
  
 /* Landscape */
  
-@media only screen
+/* @media only screen
  
 and (min-device-width: 375px)
  
@@ -419,13 +419,13 @@ and (-webkit-min-device-pixel-ratio: 2)
  
 and (orientation: landscape) {
  
-}
+} */
  
 /* ----------- Mobile Phone ----------- */
  
 /* Portrait */
  
-@media screen
+/* @media screen
  
 and (device-width: 360px)
  
@@ -435,11 +435,11 @@ and (-webkit-device-pixel-ratio: 3)
  
 and (orientation: portrait) {
  
-}
+} */
  
 /* Landscape */
  
-@media screen
+/* @media screen
  
 and (device-width: 360px)
  
@@ -450,6 +450,6 @@ and (-webkit-device-pixel-ratio: 3)
 and (orientation: landscape) {
  
 }
-
+ */
 
  
