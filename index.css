@@ -393,7 +393,7 @@ background: #D37213;
  /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
  
 /* Portrait */
-/*  
+
 @media only screen
  
 and (min-device-width: 375px)
@@ -403,13 +403,32 @@ and (max-device-width: 667px)
 and (-webkit-min-device-pixel-ratio: 2)
  
 and (orientation: portrait) {
+    .action-apply{
+    
+      padding:0;
+      font-size: 8px;
+      padding: 5px;
+
+ }
+   .action-save{
+      font-size: 8px;
+      
+     padding: 5px;
+  
+ }
+ .action-generate{
+
+  font-size: 8px;
+        padding: 5px;
+        margin-right: 20px;
+
+ }
 
 
-} */
+} 
  
 /* Landscape */
- 
-/* @media only screen
+  @media only screen
  
 and (min-device-width: 375px)
  
@@ -418,14 +437,34 @@ and (max-device-width: 667px)
 and (-webkit-min-device-pixel-ratio: 2)
  
 and (orientation: landscape) {
+     .action-apply{
+    
+      padding:0;
+      font-size: 8px;
+      padding: 5px;
+
+ }
+   .action-save{
+      font-size: 8px;
+      
+     padding: 5px;
+  
+ }
+ .action-generate{
+
+  font-size: 8px;
+        padding: 5px;
+        margin-right: 20px;
+
+ }
  
-} */
+} 
  
 /* ----------- Mobile Phone ----------- */
  
 /* Portrait */
  
-/* @media screen
+@media screen
  
 and (device-width: 360px)
  
@@ -434,12 +473,32 @@ and (device-height: 640px)
 and (-webkit-device-pixel-ratio: 3)
  
 and (orientation: portrait) {
+     .action-apply{
+    
+      padding:0;
+      font-size: 8px;
+      padding: 5px;
+
+ }
+   .action-save{
+      font-size: 8px;
+      
+     padding: 5px;
+  
+ }
+ .action-generate{
+
+  font-size: 8px;
+        padding: 5px;
+        margin-right: 20px;
+
+ }
  
-} */
+} 
  
 /* Landscape */
  
-/* @media screen
+ @media screen
  
 and (device-width: 360px)
  
@@ -448,8 +507,28 @@ and (device-height: 640px)
 and (-webkit-device-pixel-ratio: 3)
  
 and (orientation: landscape) {
+     .action-apply{
+    
+      padding:0;
+      font-size: 8px;
+      padding: 5px;
+
+ }
+   .action-save{
+      font-size: 8px;
+      
+     padding: 5px;
+  
+ }
+ .action-generate{
+
+  font-size: 8px;
+        padding: 5px;
+        margin-right: 20px;
+
+ }
  
 }
- */
+ 
 
  
