@@ -25,178 +25,73 @@
       crossorigin="anonymous"
     />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;600;700&display=swap"
-      rel="stylesheet"
-    />
-  </head>
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,900;1,400;1,500&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+</head>
   <body>
     <div class="body-container">
-      <div class="row m-0">
+      <div class="row m-0 p-0">
         <!-- sidebar section start-->
-        <div class="col-lg-2 d-none d-lg-block  sidebar pl-0 p-0 pt-2 ">
-          <div class="brand-logo">
-            <img src="./assets/company _logo.png" alt="company logo" /><i
-              class="fa fa-angle-down brand-angle"
-            ></i>
-          </div>
-          <div class="thumbnil">
-            <div class="drop-down">
-              <i class="fa fa-angle-down drop-down-angle"></i>
-            </div>
-            <i class="fa fa-cog settings-icon"></i>
-            <div class="row mt-3">
-              <div class="col-2 p-0 mt-4">
-                <div class="name-placeholder">EB</div>
-              </div>
-              <div class="col user-info">
-                <div class="">Emeka</div>
-                <div class="sub-text">Position: Senior intern(l2)</div>
-                <div class="sub-text">Manager: Nnam O</div>
-                <div class="sub-text">Manager: Nnam O</div>
-                <div class="invite-users">
-                  <span>Invite Users</span>
-                  <span class="count">1</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="sidebar-item-container">
-            <div class="items-wrapper"></div>
-          </div>
-        </div>
+        <div class="col-2 col-lg-2 d-none d-lg-block   pl-0 p-0  ">
+        <img src="/assets/sidebar.png " class="side-image " > 
+         </div>
         <!-- sidebar section end-->
 
         <!-- Job section start-->
         <div class="col ">
-          <nav class="nav">
-            navbar goes here
-          </nav>
+          
+               <img src="/assets/nav.png " class="side-image-nav " > 
+          
 
-          <div class="search-filter-container">
-            search filter goes here
+          <div class="row m-4 search-container">
+          <div class="col-2 career-area">
+            <i class="fa fa-book"><span class="career-text">Career Area</span></i>
+      
+          </div>
+           <div class="col-5 search-input ">
+             <i class="fa fa-search"></i>
+             <input placeholder="Job-Category" class="filter-input"
+             id="SearchString" name="SearchString"  type="search" value="" 
+             />
+             <input placeholder="Available-Jobs" class="filter-input"/>
+          
+           </div>
+            <div class="col-2 location">
+                <i class="fa fa-map-marker-alt"></i>
+                 <span class="location-text">
+                    <input class="location-input" type="text" placeholder="Lagos, Nigeria" />
+                  </span>
+            </div>
+             <div class="col-3 search-find">
+               
+               <div class="input-group find-container">
+                 <div class="input-icon">
+                    <i class="fa fa-book "></i>
+                 </div>
+                
+  <input type="text" class="form-control input-search "  >
+  <button class="btn find-button " type="button" >Find Job</button>
+</div>
+               <!-- <i class="fa fa-book"></i>
+               <input/>
+               <button>Find</button> -->
+             </div>
           </div>
           <div class="result-notification">
             5 Result for Microsoft 365 Cloud(Modern workplace)
           </div>
+
+
           <div class="card-container">
             <div class="row p-0 m-0">
               <div class=" col-xs-12 col-sm-12 col-md-12 col-lg-5 col-xl-5 m-0 p-0 card-div"></div>
               <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 m-0 p-0">
                 <div class="card large-card-container">
-                  <div class="row ">
-                    <div class="col col-1">
-                      <img
-                        class="company-logo-large"
-                        src="https://www.certificationcamps.com/wp-content/uploads/azurelogo-1.png"
-                        alt="brabd-logo"
-                      />
-                    </div>
-                    <div class="col-11">
-                      <div class="job-title-large">
-                        Manager,cloud Architech-Azure Apps & Infrastructure
-                      </div>
-                      <div class="job-details-container">
-                        <div>
-                          <span class="label-large"
-                            >DreamPulze Corporation | Philadelphia, PA,
-                            USA</span
-                          >
-                          <!-- <span class="label-text">${data.employmentType}</span> -->
-                        </div>
-                        <div>
-                          <div class="percent-ready-large">80%</div>
-                          <div class="ready-text-large">Ready</div>
-                        </div>
-                      </div>
-                      <div class="other-info-container">
-                        <div>
-                          <span class="new">New</span>
-                          <span class="time-large">
-                            <span>Posted 8 minutes ago</span>
-                            <span>50 <i class="fa fa-eye"></i></span>
-                          </span>
-                        </div>
-                        <div class="large-desired-experience">
-                          <span>Desired Experience Level: L5</span>
-                          <span>Desired Readiness Score: 70%</span>
-                          <span>Apply By: 30 Apr 2021</span>
-                        </div>
-                      </div>
-                      <div class="time-applicant-large">
-                        <span class="large-applicant">1 Applicant</span>
-                     <i class="fas fa-dot-circle dot"></i>
-                        <span class="large-applicant">Full Time</span>
-                      </div>
-                      <div class="action-button">
-                        <button class="action-apply">Apply</button>
-                        <button class="action-save">Save</button>
-                        <button class="action-generate">
-                          General Customer Resume
-                        </button>
-                      </div>
-                    </div>
-                    <div class="m-0 p-4">
-                      <div class="title-job">Role Responsibilities</div>
-                      <div class="description">
-                        Role Responsibilities ere are some guidelines to help
-                        you implement admin roles in Microsoft 365: Small
-                        Business Have 2-4 Global Administrators in the tenant
-                        and reduce/limit usage of secondary admin roles Make
-                        sure to enable Multi-Factor on all Global Admins except
-                        for one – break glass account Create a break glass
-                        account directly in the cloud (not synced) with a
-                        complex password and store its password in a Password
-                        Manager. Make sure not to enable MFA on that account. It
-                        should only be used in the event of an outage with MFA.
-                        Larger Organizations In addition to the 2-4 Global
-                        Administrators, segment other IT administrators into
-                        multiple other admin roles Make sure to segment only
-                        when necessary, as a deep segmentation may hinder IT
-                        admins from performing all their required tasks. In my
-                        next blog, I will talk about different types of roles to
-                        manage a Microsoft 365 tenant from a Security and
-                        Compliance point of view as opposed to this current blog
-                        post which described the more traditional Service-based
-                        admin roles. In conclusion, as the saying goes, with
-                        great power comes great responsibility. Take the time to
-                        review and compare the roles and assign the right people
-                        for the tasks. Technical Skills Requirement Certificate
-                        Services and PKI Infrastructure | Azure Active Directory
-                        Services(Core) | Configuring Microsoft Skype for
-                        Business HA and DR | Domain Naming Service(DNS) | Agile
-                        Concepts and Principles | Enterprise Security |
-                        Enterprise Networks | Azure Active Directory Groups
-                      </div>
-                      <div class="title-job">Technical skill Requiremenr</div>
-                      <div class="description">
-                        Role Responsibilities ere are some guidelines to help
-                        you implement admin roles in Microsoft 365: Small
-                        Business Have 2-4 Global Administrators in the tenant
-                        and reduce/limit usage of secondary admin roles Make
-                        sure to enable Multi-Factor on all Global Admins except
-                        for one – break glass account Create a break glass
-                        account directly in the cloud (not synced) with a
-                        complex password and store its password in a Password
-                        Manager. Make sure not to enable MFA on that account. It
-                        should only be used in the event of an outage with MFA.
-                      </div>
-
-                      <div class="title-job">Technical skill Requiremenr</div>
-                      <div class="description">
-                        Role Responsibilities ere are some guidelines to help
-                        you implement admin roles in Microsoft 365: Small
-                        Business Have 2-4 Global Administrators in the tenant
-                        and reduce/limit usage of secondary admin roles Make
-                        sure to enable Multi-Factor on all Global Admins except
-                        for one – break glass account Create a break glass
-                        account directly in the cloud (not synced) with a
-                        complex password and store its password in a Password
-                        Manager. Make sure not to enable MFA on that account. It
-                        should only be used in the event of an outage with MFA.
-                      </div>
-                    </div>
-                  </div>
+                  
                 </div>
               </div>
             </div>
