@@ -23,11 +23,11 @@ fetch('jobData.json')
     let jobWrapper = ''
     let detailsWrapper = ''
 
-    data.forEach((data) => {
+    data.forEach((data, index) => {
       category.push(data.category)
 
-      jobWrapper += `<div>
-      <div class="card">
+      jobWrapper += `<div key=${index} id=${index} class='good' >
+      <div class="card good">
                       <div class="row ">
                     <div class="col col-1  ">
                    <img  class="company-logo" src="${data.image}" alt="brabd-logo"/>
@@ -69,12 +69,12 @@ fetch('jobData.json')
                   </div>
                   </div>`
     })
-    detailsWrapper += `<div>
+    detailsWrapper += `<div class="good">
      <div class="row ">
                     <div class="col col-1">
                       <img
                         class="company-logo-large"
-                        src="${initialData.image}"
+                        src="${initialData.image }"
                         alt="brabd-logo"
                       />
                     </div>

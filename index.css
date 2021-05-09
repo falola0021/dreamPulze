@@ -267,9 +267,10 @@ margin: 10px 25px !important;
 
  }
  .card-div{
-     overflow-y: scroll;
-      height: 75vh;
+     overflow-y: scroll !important;
+      height: 70vh;
       overflow-x: hidden;
+      padding-bottom: 30px;
      
  }
 
@@ -492,147 +493,64 @@ border-radius: 10px;
     
 }
 
- /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+ /* Custom, iPhone Retina */ 
+ @media only screen and (min-width : 320px) {
+        /* html{
  
-/* Portrait */
+      overflow: scroll;  
+      height: 100 !important;
 
-@media only screen
- 
-and (min-device-width: 375px)
- 
-and (max-device-width: 667px)
- 
-and (-webkit-min-device-pixel-ratio: 2)
- 
-and (orientation: portrait) {
-    .action-apply{
-    
-      padding:0;
-      font-size: 8px;
-      padding: 5px;
-
- }
-   .action-save{
-      font-size: 8px;
+} */
+ .card-div{
+     overflow-y:hidden;
       
-     padding: 5px;
-  
+      overflow-x: hidden;
+     
+     
  }
- .action-generate{
-
-  font-size: 8px;
-        padding: 5px;
-        margin-right: 20px;
-
- }
-
-
-} 
- 
-/* Landscape */
-  @media only screen
- 
-and (min-device-width: 375px)
- 
-and (max-device-width: 667px)
- 
-and (-webkit-min-device-pixel-ratio: 2)
- 
-and (orientation: landscape) {
-     .action-apply{
-    
-      padding:0;
-      font-size: 8px;
-      padding: 5px;
-
- }
-   .action-save{
-      font-size: 8px;
-      
-     padding: 5px;
-  
- }
- .action-generate{
-
-  font-size: 8px;
-        padding: 5px;
-        margin-right: 20px;
-
- }
- 
-} 
- 
-/* ----------- Mobile Phone ----------- */
- 
-/* Portrait */
- 
-@media screen
- 
-and (device-width: 360px)
- 
-and (device-height: 640px)
- 
-and (-webkit-device-pixel-ratio: 3)
- 
-and (orientation: portrait) {
-     .action-apply{
-    
-      padding:0;
-      font-size: 8px;
-      padding: 5px;
-
- }
-   .action-save{
-      font-size: 8px;
-      
-     padding: 5px;
-  
- }
- .action-generate{
-
-  font-size: 8px;
-        padding: 5px;
-        margin-right: 20px;
-
- }
- 
-} 
- 
-/* Landscape */
- 
- @media screen
- 
-and (device-width: 360px)
- 
-and (device-height: 640px)
- 
-and (-webkit-device-pixel-ratio: 3)
- 
-and (orientation: landscape) {
-     .action-apply{
-    
-      padding:0;
-      font-size: 8px;
-      padding: 5px;
-
- }
-   .action-save{
-      font-size: 8px;
-      
-     padding: 5px;
-  
- }
- .action-generate{
-
-  font-size: 8px;
-        padding: 5px;
-        margin-right: 20px;
-
- }
- 
+ .card-container{
+margin: 10px 0px !important;
 }
- 
+    .popup{
+      display: none !important;
+    }
+    .action-generate{
+background: #D37213;
+ border-radius:40px;
+      outline: none;
+      font-size: 12px;
+      box-shadow: none !important;
+       border-color:transparent;
+       color: #ffffff;
+        padding: 5px 00px;
 
+ }
+
+    } 
+
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : 480px) {
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+
+    }
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+        .popup{
+        display: block !important;
+    }
+
+    }
  
 
 
