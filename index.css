@@ -34,22 +34,22 @@ html{
     background:#ffffff;
     width: 100%;
      height: 5%;
-    -webkit-box-shadow: 0 4px 4px -2px #cfcccc;
-   -moz-box-shadow: 0 4px 4px -2px #dddcdc;
-    box-shadow: 0 4px 4px -2px #dddddd;
+    -webkit-box-shadow: 0 4px 4px -2px #e7e7e7;
+   -moz-box-shadow: 0 4px 4px -2px #e4e4e4;
+    box-shadow: 0 4px 4px -2px #f0f0f0;
+    
 }
 .search-container{
    height: 5%;
-border-radius: 12px;
+border-radius: 20px;
  display: flex;
     align-items: center;
-       -webkit-box-shadow: 0 4px 4px -2px #cfcccc;
-   -moz-box-shadow: 0 4px 4px -2px #dddcdc;
-    box-shadow: 0 4px 4px -2px #dddddd;
+     box-shadow: 0px 0px 1px 1px rgb(233, 233, 233);
  border: 1px solid  rgb(250, 249, 249);
  font-size: 14px !important;
  font-family: Roboto !important;
 font-style: normal !important;
+padding-right: 10px !important;
 }
 .select-area{
     outline: none;
