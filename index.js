@@ -155,10 +155,11 @@ $(document).ready(function () {
     border: 'none',
     placeholder: 'Search Job',
     // allowClear: true
+    
 
   })
   $('#careerArea').select2({
-    placeholder: 'Career Area',
+    // placeholder: 'Career Area',
 
     closeOnSelect: true,
     border: 'none',
@@ -167,23 +168,29 @@ $(document).ready(function () {
   })
   $('#type').select2({
     border: 'none',
-    placeholder: '',
+
     // allowClear: true
-    placeholder: 'Type'
+
+  })
+
+  $('#location').select2({
+    border: 'none',
+
+    // allowClear: true
 
   })
 })
 
-var searchInput = 'myAddress'
+// var searchInput = 'myAddress'
 
-$(document).ready(function () {
-  var autocomplete
-  autocomplete = new google.maps.places.Autocomplete((document.getElementById(searchInput)), {
-    types: ['geocode']
+// $(document).ready(function () {
+//   var autocomplete
+//   autocomplete = new google.maps.places.Autocomplete((document.getElementById(searchInput)), {
+//     types: ['geocode']
 
-  })
+//   })
 
-  google.maps.event.addListener(autocomplete, 'place_changed', function () {
-    var near_place = autocomplete.getPlace()
-  })
-})
+//   google.maps.event.addListener(autocomplete, 'place_changed', function () {
+//     var near_place = autocomplete.getPlace()
+//   })
+// })
