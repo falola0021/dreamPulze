@@ -51,7 +51,33 @@ border-radius: 12px;
  font-family: Roboto !important;
 font-style: normal !important;
 }
+.select-area{
+    outline: none;
+    width: 100% !important;
+    border:none !important;
+   
+}
+.select-area:focus{
+box-shadow: none !important;
+}
+ .select2-container *:focus {
+        outline: none;
+    }
+    
 
+/* .select2-results__option {
+  color: orange;
+  background-color: seashell;
+} */
+
+.select2-results__option--highlighted {
+  color: white !important;
+  background-color: #4E4EA2 !important;
+}
+
+.select2-container--default .select2-results__option[aria-selected=true] {
+  background-color: darkgray;
+}
 
 .career-text{
     margin-left: 10px;
@@ -87,6 +113,14 @@ outline: none !important;
 }
 .search-input i{
     color: #4E4EA2;
+}
+.type{
+    display: flex;
+    align-items: center;
+    border-left: 1px solid rgb(201, 201, 201);
+   height: 100%;
+  
+ 
 }
 .location{
     display: flex;
@@ -239,7 +273,7 @@ margin: 10px 25px !important;
  .percent-ready{
       color: #3ba33b;
      font-weight:bold;
-      font-size: 10px;
+      font-size: 13px;
 
  }
  .ready-text{
@@ -339,7 +373,7 @@ margin: 10px 25px !important;
  .percent-ready-large{
       color: #3ba33b;
      font-weight:bold;
-      font-size: 12px;
+      font-size: 14px;
 
  }
  .ready-text-large{
@@ -367,6 +401,7 @@ margin: 10px 25px !important;
      justify-content: space-between;
      font-size: 10px !important;
     color: #0c0c0c;
+    margin-top: 10px;
  }
  .other-info-container{
      margin-left: 15px;
@@ -511,20 +546,13 @@ border-radius: 10px;
  .card-container{
 margin: 10px 0px !important;
 }
+ /* .card-container{
+margin: 10px 0px !important;
+} */
     .popup{
       display: none !important;
     }
-    .action-generate{
-background: #D37213;
- border-radius:40px;
-      outline: none;
-      font-size: 12px;
-      box-shadow: none !important;
-       border-color:transparent;
-       color: #ffffff;
-        padding: 5px 00px;
-
- }
+   
 
     } 
 
@@ -549,6 +577,9 @@ background: #D37213;
         .popup{
         display: block !important;
     }
+    .card-container{
+margin: 10px 25px !important;
+}
 
     }
  

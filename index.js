@@ -1,18 +1,3 @@
-$(function () {
-  $('#SearchString').autocomplete({
-    source: category,
-    minLength: 1
-  })
-})
-
-$(function () {
-  $('#clearbutton').click(function () {
-    $('#SearchString').autocomplete('close')
-    $('#SearchString').val('')
-  })
-})
-let category = []
-
 // Fetch data from data.json file
 fetch('jobData.json')
   .then(function (response) {
@@ -24,10 +9,8 @@ fetch('jobData.json')
     let detailsWrapper = ''
 
     data.forEach((data, index) => {
-      category.push(data.category)
-
-      jobWrapper += `<div key=${index} id=${index} class='good' >
-      <div class="card good">
+      jobWrapper += `<div key=${index} id=${index}  >
+      <div class="card ">
                       <div class="row ">
                     <div class="col col-1  ">
                    <img  class="company-logo" src="${data.image}" alt="brabd-logo"/>
@@ -166,6 +149,41 @@ fetch('jobData.json')
     document.querySelector('.card-div').innerHTML = jobWrapper
     document.querySelector('.large-card-container').innerHTML = detailsWrapper
   })
-  .catch(function (err) {
-    console.log('error: ' + err)
+
+$(document).ready(function () {
+  $('#multiOptions').select2({
+    border: 'none',
+    placeholder: 'Search Job',
+    // allowClear: true
+
   })
+  $('#careerArea').select2({
+    placeholder: 'Career Area',
+
+    closeOnSelect: true,
+    border: 'none',
+    // allowClear: true
+
+  })
+  $('#type').select2({
+    border: 'none',
+    placeholder: '',
+    // allowClear: true
+    placeholder: 'Type'
+
+  })
+})
+
+var searchInput = 'myAddress'
+
+$(document).ready(function () {
+  var autocomplete
+  autocomplete = new google.maps.places.Autocomplete((document.getElementById(searchInput)), {
+    types: ['geocode']
+
+  })
+
+  google.maps.event.addListener(autocomplete, 'place_changed', function () {
+    var near_place = autocomplete.getPlace()
+  })
+})
