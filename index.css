@@ -585,19 +585,21 @@ border-radius: 10px;
      overflow-y:hidden;
       
       overflow-x: hidden;
-     
-     
- }
+     }
  .card-container{
 margin: 10px 0px !important;
 }
+.side-icon{
+        display: none !important;
+    }
+   
  /* .card-container{
 margin: 10px 0px !important;
 } */
     .popup{
       display: none !important;
     }
-   
+    
 
     } 
 
@@ -614,6 +616,12 @@ margin: 10px 0px !important;
 
     /* Medium Devices, Desktops */
     @media only screen and (min-width : 992px) {
+         .popup{
+      display: block !important;
+    }
+    .side-icon{
+        display: block !important;
+    }
 
     }
 
@@ -625,6 +633,9 @@ margin: 10px 0px !important;
     .card-container{
 margin: 10px 25px !important;
 }
+.side-icon{
+        display: block !important;
+    }
 
     }
  
